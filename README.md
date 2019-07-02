@@ -7,3 +7,6 @@ Program that reads a file that containing a SQL query, submits the query to a sp
 
 2. Enter the SQLProject file name (this can be renamed to anything, i called it "SQL_Timer"). Run that executable with command line arguments.
 ![](SQLProjectGif1.gif)
+
+### Note: If you are unsure what arguments to pass in, use the "-help" command to see a list of valid arguments
+![](SQLProjectGif2.gif)
