@@ -6,3 +6,4 @@ Program that reads a file that containing a SQL query, submits the query to a sp
 ![Dir image](https://github.com/BrandonSchultz0731/SQLProject/blob/master/SQLProjectCapture1.PNG)
 
 2. Enter the SQLProject file name (this can be renamed to anything, i called it "SQL_Timer"). Run that executable with command line arguments.
+![](SQLProjectGif1.gif)
