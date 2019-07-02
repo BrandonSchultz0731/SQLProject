@@ -4,3 +4,5 @@ Program that reads a file that containing a SQL query, submits the query to a sp
 ## How it works
 1. Once the gradle project is built, locate the executable under build\distributions\SQLProject-1.0-SNAPSHOT\SQLProject-1.0-SNAPSHOT\bin inside the command line
 ![Dir image](https://github.com/BrandonSchultz0731/SQLProject/blob/master/SQLProjectCapture1.PNG)
+
+2. Enter the SQLProject file name (this can be renamed to anything, i called it "SQL_Timer"). Run that executable with command line arguments.
