@@ -1,0 +1,29 @@
+plugins {
+    id 'java-library'
+    id 'java'
+    id 'application'
+}
+
+group 'com.company'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven {url "https://clojars.org/repo"}
+    mavenCentral()
+}
+apply plugin: 'application'
+mainClassName = "Main"
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.microsoft.sqlserver:sqljdbc4:4.0'
+    // https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc
+    //testCompile group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '7.2.1.jre8'
+    // https://mvnrepository.com/artifact/log4j/log4j
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    // https://mvnrepository.com/artifact/log4j/apache-log4j-extras
+    compile group: 'log4j', name: 'apache-log4j-extras', version: '1.2.17'
+}
+//war.from('src/main/resources'){ include('log4j.properties')}

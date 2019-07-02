@@ -1,0 +1,6 @@
+2019-06-27 02:28:47  INFO [main] SQLTimer startup.
+2019-06-27 02:28:47  INFO [main] Reading query file C:\Users\bschultz\Desktop\transactions_by_source.txt
+2019-06-27 02:28:48  INFO [main] Submitting query to instance hosted-devspc
+2019-06-27 02:30:10  INFO [main] Query finished, runtime = 00:01:22
+2019-06-27 02:30:10  INFO [main] Number of rows returned = 1507272
+2019-06-27 02:30:10  INFO [main] SQLTimer end

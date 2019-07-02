@@ -1,0 +1,6 @@
+2019-06-27 02:32:50  INFO [main] SQLTimer startup.
+2019-06-27 02:32:50  INFO [main] Reading query file C:\Users\bschultz\Desktop\transactions_by_source.txt
+2019-06-27 02:32:50  INFO [main] Submitting query to instance DB-SANDBOX\SQL2014
+2019-06-27 02:32:50  INFO [main] Query finished, runtime = 00:00:00
+2019-06-27 02:32:50  INFO [main] Number of rows returned = 0
+2019-06-27 02:32:50  INFO [main] SQLTimer end
